@@ -1,0 +1,3 @@
+# Build output: produced per-platform by `dsh-manage` (lib/.dsh-build-target
+# records the target); never committed.
+lib/

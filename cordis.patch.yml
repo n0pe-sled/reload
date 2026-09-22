@@ -1,0 +1,8 @@
+# The dsh-reload bundle layer: one row that is BOTH the node-half entry and the
+# browser-roster entry (client-modules scans enabled Loader entries for packages
+# declaring `dsh.client`). Activation is service-availability driven: the node
+# half injects `commands`, and the browser half opens the reload channel on load.
+
+- insert:
+    - id: reload
+      name: dsh-reload
