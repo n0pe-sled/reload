@@ -10,6 +10,6 @@ node_modules/
 coverage/
 *.tsbuildinfo
 
-# Build output: produced per-platform by `dsh-manage` (lib/.dsh-build-target
-# records the target); never committed.
+# Build output: this plugin builds its own `lib/` with `pnpm run build`;
+# never committed.
 lib/
